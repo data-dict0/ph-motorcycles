@@ -8,7 +8,7 @@ const ScrollLottie = (obj) => {
    path: obj.path 
  });
  
- let timeObj = {currentFrame: 2}
+ let timeObj = {currentFrame: 0}
  let endString = (obj.speed === "slow") ? "+=3000" : (obj.speed === "medium") ? "+=1000" : (obj.speed === undefined) ? "+=1250" : "+=500";
  ScrollTrigger.create({
    trigger: obj.target,
