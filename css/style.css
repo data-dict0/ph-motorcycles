@@ -1,0 +1,38 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.title {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.byline {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#lottie-container {
+  width: 100%;
+  height: 100%;
+}
