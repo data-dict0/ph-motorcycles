@@ -27,6 +27,10 @@ html {
   font-size: 16px;
 }
 
+.caption {
+  font-size: 11px;
+}
+
 a {
   color: #ffffff;
   text-decoration: underline;
