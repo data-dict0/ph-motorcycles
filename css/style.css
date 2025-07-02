@@ -58,6 +58,10 @@ html {
   font-size: 11px;
 }
 
+a {
+  color: #ffffff
+}
+
 a:hover {
   color: #fdb863;
 }
