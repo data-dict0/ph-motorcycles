@@ -8,6 +8,33 @@ html {
   color: #ffffff;
 }
 
+.navbar-brand {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.navbar-toggler {
+  font-size: 16px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-underline-offset: 5px;
+}
+
 .title {
   text-align: center !important;
   justify-content: center;
@@ -31,11 +58,6 @@ html {
   font-size: 11px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
 a:hover {
   color: #fdb863;
 }
@@ -52,6 +74,20 @@ a:hover {
 @media only screen and (max-width: 500px) and (min-width: 300px) {
   #lottie-container {
     display: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+  button.navbar-toggler {
+    border-color: #ffffff !important;
+    margin-right: 0px;
+  }
+
+  a,
+  img {
+    width: 320px;
   }
 
   #lottie-container-mobile {
