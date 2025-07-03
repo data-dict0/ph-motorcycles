@@ -6,6 +6,11 @@ html {
   padding: 0;
   background-color: #333333;
   color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  margin-top: 50px;
 }
 
 .navbar-brand {
@@ -13,8 +18,12 @@ html {
   justify-content: center;
   position: relative;
   margin-bottom: auto;
-  font-size: 50px;
   font-weight: bold;
+}
+
+navbar,
+ul {
+  margin-top: 11px;
 }
 
 .nav-item {
@@ -59,7 +68,7 @@ html {
 }
 
 a {
-  color: #ffffff
+  color: #ffffff;
 }
 
 a:hover {
@@ -86,12 +95,13 @@ a:hover {
 
   button.navbar-toggler {
     border-color: #ffffff !important;
-    margin-right: 0px;
+    width: 50px;
+    float: inline-end;
   }
 
-  a,
+  .navbar-brand,
   img {
-    width: 300px;
+    width: 310px;
   }
 
   #lottie-container-mobile {
